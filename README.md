@@ -30,5 +30,28 @@ The relation of some Lissajous curves to Chebyshev polynomials is clearer to und
 
 <img src="https://render.githubusercontent.com/render/math?math=y=\cos(Nt)">
 
+## Exercise
+
+In this exercise, I wrote a Swing component that displays a ​Lissajous curve on its surface, allowing the user to control the parameters ​a​, ​b and ​delta ​that define the shape of this curve by entering their values into three ​JTextField components placed inside this component. The class ​Lissajous extends JPanel​, and the following methods in it:
+The constructor
+
+*public Lissajous(int size)*
+
+sets the preferred size of this component to be ​size​-by-​size pixels. Then, three instances of ​JTextField are created and added inside ​this component. Initialize these text fields with values 2, 3 and 0.5, with some extra spaces added to these strings so that these text fields have a decent size for the user to enter other numbers. Define your own subtype ​ActionListener as a nested class whose ​actionPerformed method simply calls ​repaint for this component, and have an instance of this class listen to all three text fields.
+
+*@Override public void paintComponent(Graphics g)*
+
+Renders the Lissajous curve on the component surface, using the current values for ​a,​ ​b and ​delta that it first reads from the previous three text fields. This method should consist of a for-loop whose loop variable ​double t goes through the values from ​0 to ​(a + b) * Math.PI using some suitably small increments. In the body of the loop, compute the coordinates ​x and ​y of the current point using the formulas
+
+x = size/2 + 2*size/5 * Math.sin(a * t + delta); 
+y = size/2 + 2*size/5 * Math.cos(b * t);
+
+and draw a line segment from the current point to the previous point.
+
+To admire admire my Lissajous curve and try out the effect of different values of ​a,​ ​b and delta on the shape of the curve as if you were trapped inside the lair of a mad scientist of some 1970's dystopian science fiction movie, a separate class ​LissajousMain whose ​main method creates a ​JFrame that contains your ​Lissajous component. The end result should look somewhat like this:
+
+![Lissajous image](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Lissajous_curve_3by2.svg/200px-Lissajous_curve_3by2.svg.png)
+
+
 
 
