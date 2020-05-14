@@ -26,5 +26,9 @@ are Chebyshev polynomials of the first kind of degree N. This property is exploi
 
 The relation of some Lissajous curves to Chebyshev polynomials is clearer to understand if the Lissajous curve which generates each of them is expressed using cosine functions rather than sine functions.
 
-<img src="https://render.githubusercontent.com/render/math?math=x=\cos(t),\quad y=\cos(Nt)}{\displaystyle x=\cos(t),\quad y=\cos(Nt)">
+<img src="https://render.githubusercontent.com/render/math?math=y=B\sin(bt)">
+
+<img src="https://render.githubusercontent.com/render/math?math=\quad y=\cos(Nt)}{\displaystyle x=\cos(t),\quad y=\cos(Nt)">
+
+
 
