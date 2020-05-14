@@ -4,6 +4,9 @@
 
 Named after Jules Antoine Lissajous, a Lissajous curve /ˈlɪsəʒuː/, also known as Lissajous figure or Bowditch curve /ˈbaʊdɪtʃ/, is the graph of a system of parametric equations
 
+<img src="https://render.githubusercontent.com/render/math?math=x=A\sin(at+\delta">
+
+
 {\displaystyle x=A\sin(at+\delta ),\quad y=B\sin(bt),}x=A\sin(at+\delta ),\quad y=B\sin(bt),
 which describe complex harmonic motion. This family of curves was investigated by Nathaniel Bowditch in 1815, and later in more detail by Jules Antoine Lissajous in 1857.
 
