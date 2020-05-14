@@ -20,7 +20,9 @@ Visually, the ratio (a/b) determines the number of "lobes" of the figure. For ex
 Lissajous figure on an oscilloscope, displaying a 1:3 relationship between the frequencies of the vertical and horizontal sinusoidal inputs, respectively. This particular Lissajous figure was adapted into the logo for the Australian Broadcasting Corporation
 Lissajous figures where a = 1, b = N (N is a natural number) and
 
-<img src="https://render.githubusercontent.com/render/math?math=\delta ={\frac {N-1}{N}}{\frac {\pi }{2}}}{\displaystyle \delta ={\frac {N-1}{N}}{\frac {\pi }{2}}">
+<img src="https://render.githubusercontent.com/render/math?math=δ = (N-1)/N (\pi/2)">
+
+\delta ={\frac {N-1}{N}}{\frac {\pi }{2}}}{\displaystyle \delta ={\frac {N-1}{N}}{\frac {\pi }{2}}">
 
 are Chebyshev polynomials of the first kind of degree N. This property is exploited to produce a set of points, called Padua points, at which a function may be sampled in order to compute either a bivariate interpolation or quadrature of the function over the domain [−1,1] × [−1,1].
 
