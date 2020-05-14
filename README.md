@@ -11,7 +11,7 @@ which describe complex harmonic motion. This family of curves was investigated b
 
 The appearance of the figure is highly sensitive to the ratio <img src="https://render.githubusercontent.com/render/math?math=a/b">
 For a ratio of 1, the figure is an ellipse, with special cases including circles
-<img src="https://render.githubusercontent.com/render/math?math=A=B, δ = π/2">
+<img src="https://render.githubusercontent.com/render/math?math=A=B, \delta = π/2">
 radians and lines (δ = 0). Another simple Lissajous figure is the parabola <img src="https://render.githubusercontent.com/render/math?math=b/a = 2, δ = π/4">
 Other ratios produce more complicated curves, which are closed only if a/b is rational. The visual form of these curves is often suggestive of a three-dimensional knot, and indeed many kinds of knots, including those known as Lissajous knots, project to the plane as Lissajous figures.
 
@@ -20,17 +20,15 @@ Visually, the ratio (a/b) determines the number of "lobes" of the figure. For ex
 Lissajous figure on an oscilloscope, displaying a 1:3 relationship between the frequencies of the vertical and horizontal sinusoidal inputs, respectively. This particular Lissajous figure was adapted into the logo for the Australian Broadcasting Corporation
 Lissajous figures where a = 1, b = N (N is a natural number) and
 
-<img src="https://render.githubusercontent.com/render/math?math=\delta=(N-1)/N(\pi/2)">
-
-\delta ={\frac {N-1}{N}}{\frac {\pi }{2}}}{\displaystyle \delta ={\frac {N-1}{N}}{\frac {\pi }{2}}">
+<img src="https://render.githubusercontent.com/render/math?math=\delta=((N-1)/N)(\pi/2)">
 
 are Chebyshev polynomials of the first kind of degree N. This property is exploited to produce a set of points, called Padua points, at which a function may be sampled in order to compute either a bivariate interpolation or quadrature of the function over the domain [−1,1] × [−1,1].
 
 The relation of some Lissajous curves to Chebyshev polynomials is clearer to understand if the Lissajous curve which generates each of them is expressed using cosine functions rather than sine functions.
 
-<img src="https://render.githubusercontent.com/render/math?math=y=B\sin(bt)">
+<img src="https://render.githubusercontent.com/render/math?math=x=\cos(t)">
 
-<img src="https://render.githubusercontent.com/render/math?math=\quad y=\cos(Nt)}{\displaystyle x=\cos(t),\quad y=\cos(Nt)">
+<img src="https://render.githubusercontent.com/render/math?math=y=\cos(Nt)">
 
 
 
